@@ -1,0 +1,319 @@
+<?php /* Template Name: contact */ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<title>JUST IDEAS</title>
+
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css"/>
+
+  	<!--[if lt IE 9]>
+  	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]--> 
+
+    <!-- FAVICON  -->
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/fav.png">    
+
+	   <!-- Font icons --> 
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet">
+	   <!--Font -->
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/font/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/icon-fonts/flaticon/flaticon.css" />
+<style>
+.fit-image{
+width: 100%;
+object-fit: cover;
+height: 450px; /* only if you want fixed height */
+}
+
+</style>
+</head> 
+<body class="darkness"> 
+
+
+<main>
+
+
+	<!-- HEADER 
+	================================================== --> 	
+  <header class="whitev drk">
+		<!-- Logo -->
+		<a href="https://justideas.sa/" class="logo" data-type="ajax-load">
+			<img src="<?php bloginfo('template_url'); ?>/img/logo-footer.png" alt="">
+		</a>
+    <!-- Menu -->
+    <div class="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+  </header>
+  
+  <!-- Black Version -->
+  <header class="black">
+		<!-- Logo -->
+		<a href="https://justideas.sa/" class="logo" data-type="ajax-load">
+			<img src="<?php bloginfo('template_url'); ?>/img/logo-m.png" alt="">
+		</a>
+		<!-- Menu -->
+    <div class="hamburger">
+    <div class="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Right Bar -->
+   <!-- Social Links -->
+   <div class="social fix">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i>  </a></li> 
+        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a></li>
+        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>  </a></li>
+        <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i>  </a></li>
+       <li><a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i>  </a></li>
+      </ul>
+   </div>
+   <!-- arrow -->
+   <div class="uptotop">
+      <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412" fill="#000">
+        <path d="M7.073,26.241h0L0,19.172l1.414-1.415,4.829,4.829V8h2V22.586l4.829-4.829,1.415,1.415-7.241,7.24Z" transform="translate(0 -8)"/>
+      </svg>
+   </div>
+
+   <!-- Full Menu -->
+   <div class="full-menu">
+     <div class="row">
+       <div class="col-lg-8 col-md-7 left-content">
+         <div class="logo">
+           <img src="<?php bloginfo('template_url'); ?>/img/logo-m.png" width="25%" alt="">
+         </div> 
+         <div class="close-icon d-none">
+           <img src="<?php bloginfo('template_url'); ?>/img/cancel.png" alt="">
+         </div>
+         <div class="outter">
+           <div class="inner">
+              <div class="container">
+            <ul class="site-menu">
+                  <li><a href="https://justideas.sa/" data-type="ajax-load">Home.</a></li>
+                  <li><a href="https://justideas.sa/about/" data-type="ajax-load">About Us.</a></li>
+                  <li><a href="https://justideas.sa/services" data-type="ajax-load">Services.</a></li>
+                  <li><a href="https://justideas.sa/contact" data-type="ajax-load">Contact.</a></li>
+                 </ul>
+                </div> <!-- container end -->
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4 col-md-5 right-content sidepatern">
+         <div class="close-icon">
+           <img src="<?php bloginfo('template_url'); ?>/img/cancel.png" alt="">
+         </div>
+          <div class="outter">
+            <div class="inner">
+              <!-- Brief -->
+              <ul>
+                <li>Brief Us</li>
+                <li><a href="mailto:info@justideas.sa">info@justideas.sa</a></li>
+                <li>Tel. +966 11 810 8107</li>
+              </ul>
+              <!-- Office -->
+              <ul>
+                <li>Our Office</li>
+                <li>3649, Alshiekh Abdullah bin Gabreen street,<br> Alriyadh, Saudi Arabia</li>
+              </ul>
+              <!-- Follow -->
+              <ul class="social-links">
+                <li>Follow Us</li>
+               
+                <li><a href="#">Linkedin.</a></li>
+              </ul>
+            </div>
+          </div>
+       </div>
+     </div> <!-- row end -->
+   </div>
+
+
+
+
+
+
+
+	<!-- HERO 
+	================================================== --> 	
+  <div class="hero">
+    <div class="outter">
+      <div class="inner">
+        <div class="hero-content">
+          <div class="container">
+              <span class="little">Get In Touch</span>
+              <h1 class="subhero-title">Have an Enquiry? <br>
+                <span>Have a project you’d like to talk about? Please feel free to contact us</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<!-- CONTACT 
+	================================================== --> 	
+  <section class="contact atop">
+    <div class="container">
+      <div class="row">
+          <!-- contact form -->
+          <div class="col-lg-5">
+            <form class="row">
+              <!-- name -->
+              <div class="form-group">
+                  <div class="placeholder">Your name</div>
+                <input class="inp" type="text">
+              </div>
+              <!-- email -->
+              <div class="form-group">
+                <div class="placeholder">Your e-mail</div>
+                 <input class="inp" type="text">
+              </div>
+              <!-- company -->
+              <div class="form-group">
+                <div class="placeholder">Your Company</div>
+                  <input class="inp" type="text">
+              </div>
+              <!-- about project -->
+              <div class="form-group">
+                <div class="placeholder">Tell us about your project</div>
+                <textarea class="inp" name="comments" rows="1" required="" data-msg-required="This field is required."  placeholder=""></textarea>
+              </div>
+              <!-- button -->
+              <div class="form-btn">
+                <input class="site-btn" type="submit" value="Sent it">
+              </div>
+            </form>
+          </div>
+        <!-- Contact Info -->
+          <div class="col-lg-6 offset-lg-1 information">
+            <div class="contact-info email">
+              <span>Or send email</span>
+              <a href="mailto:info@justideas.sa">info@justideas.sa</a>, <a href="mailto:ask@justideas.sa">ask@justideas.sa</a>
+				
+            </div>
+            <div class="contact-info address">
+              <span>Our Office</span>
+              <p>3649, Alshiekh Abdullah bin Gabreen street,<br>Alriyadh, Saudi Arabia. <br>
+                  Tel.   +966 11 810 8107</p>
+            </div>
+            <div class="contact-info address">
+              <span>Follow us</span>
+           
+              <a href="#">Linkedin.</a>
+            </div>
+          </div>
+      </div>
+      
+      </section>
+  
+       <section class="teammates padbot_120">
+    <div class="container">
+      <div class="row">
+           <div class="col-lg-12">
+        <h2 style="color:#fff; font-weight:bold">Our People</h2>
+        <h2>&nbsp;</h2>
+        </div>
+        <div class="row">
+        <div class="col-lg-4 team">
+          <figure>
+            <img src="https://justideas.sa/wp-content/uploads/2020/09/ceo-1.jpg" alt="">
+            <div class= "ceoji">
+            <figcaption>
+              <span class="number">01.</span>
+              
+              <h3 class="name">Dr. A. Maree</h3>
+              <span class="job" style="font-weight:bold; font-size:22px">CEO</span>
+              <p class="pceoji">15 years experience in Marketing Planning & Strategies. 16 years of teaching and training experience. MSc in Advertising Creativity from Cairo University - PhD in Marketing Theory from Ain Shams University.</p>
+</div>
+            </figcaption>
+          </figure>
+        </div>
+        <style>
+        .pceoji{display:none;}   
+        div.ceoji:hover .pceoji {display:block; text-align:center; 
+        padding: 40px; margin-top: 45px;}
+            
+        </style>
+        
+        <!-- a person-->
+        <div class="col-lg-4 team">
+          <figure>
+            <img src="https://justideas.sa/wp-content/uploads/2020/09/coo-1.jpg" alt="">
+            <div class= "cooji">
+            <figcaption>
+              <span class="number">02.</span>
+              
+              <h3 class="name">A. Alkhaled</h3>
+              <span class="job" style="font-weight:bold; font-size:22px">COO</span>
+                  <p class="pcooji">Specialized in Sales & Marketing with 7 years of experience. Ex sales supervisor at all marai. Ex senior sales at aleyaan company. Ex head of sales & marketing at developers & designers company. Bachelor of Marketing.</p>
+</div>
+            </figcaption>
+          </figure>
+        </div>
+     
+        <style>
+        .pcooji{display:none;}   
+        div.cooji:hover .pcooji {display:block; text-align:center; 
+        padding: 40px; margin-top: 45px;}
+            
+        </style>
+        <!-- a person-->
+        <div class="col-lg-4 team">
+          <figure>
+            <img src="https://justideas.sa/wp-content/uploads/2020/09/cd-1.jpg" alt="">
+              <div class= "cdji">
+            <figcaption>
+              <span class="number">03.</span>
+              
+              <h3 class="name">A. Almetari</h3>
+              <span class="job" style="font-weight:bold; font-size:22px">Creative Director</span>
+                 <p class="pcdji">Graphic designer specialized in (Infographic - Motion Graphics)
+Worked for Ministry of Tourism as a graphic designer
+Worked at STC as a graphic designer
+Bachelor of Media.</p>
+</div>
+            </figcaption>
+          </figure>
+        </div>
+          <style>
+        .pcdji{display:none;}   
+        div.cdji:hover .pcdji {display:block; text-align:center; 
+        padding: 40px; margin-top: 45px;}
+            
+        </style>
+      </div>
+    </div>
+        </section>
+      <section class="padbot_120">
+          </section>
+        <section class="contact atop padbot_120">
+             <div class="container">
+      <div class="row">
+      <div class="col-lg-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.958330687383!2d46.60185721500229!3d24.83109858406775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ5JzUyLjAiTiA0NsKwMzYnMTQuNiJF!5e0!3m2!1sen!2ssa!4v1598567644287!5m2!1sen!2ssa" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+</div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+		<?php get_footer();?>
